@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./img/iconfont/iconfont.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="topbarphone">
+      <ul class="leftnav">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="mainlogo">
+        <a href="javascript:;"></a>
+      </div>
+      <div class="outer">
+        <a href="javascript:;" ></a>
+      </div>
+    </div>
+    <ul class="leftnavhidden">
+      <li> <a href="javascript:;">手机</a></li>
+      <li> <a href="javascript:;">美容仪器</a></li>
+      <li> <a href="javascript:;">配件</a></li>
+      <li> <a href="javascript:;">服务支持</a></li>
+      <li> <a href="javascript:;">企业网站</a></li>
+      <li><i class="iconfont">&#xe752;</i> Meitu.com</li>
+    </ul>
+    <div class="topbarpc">
+      <ul class="ulout">
+        <li><a href="javascript:;"></a></li>
+        <ul class="ulin">
+          <li><a href="javascript:;">手机</a></li>
+          <li><a href="javascript:;">美容仪器</a></li>
+          <li><a href="javascript:;">配件</a></li>
+          <li><a href="javascript:;">服务支持</a></li>
+          <li><a href="javascript:;">企业网站</a></li>
+          <li><a href="javascript:;"><i class="iconfont">&#xe752;</i></a></li>
+        </ul>      
+        <li><a href="javascript:;"></a></li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    const leftnav = document.getElementsByClassName('leftnav')[0]
+    const leftnavhidden = document.getElementsByClassName('leftnavhidden')[0]
+    // 判断leftnav是否有这个类
+    function IsleftNavActive(){
+      console.log('2')
+      if(leftnav.classList.contains('leftnavactive')){
+        leftnav.addEventListener('click',function(){
+          leftnav.classList.remove('leftnavactive')
+          leftnavhidden.style.opacity = '0'
+        })
+      }
+      else{
+      leftnav.addEventListener('click',function(){
+        leftnav.classList.add('leftnavactive')
+        leftnavhidden.style.opacity = '1'
+         })
+      }
+    }
+  leftnav.addEventListener('mousedown',function(){
+    console.log('hello')
+    IsleftNavActive()
+  })
+  </script>
+</body>
+</html>

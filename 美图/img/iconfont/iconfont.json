@@ -1,0 +1,30 @@
+{
+  "id": "3359820",
+  "name": "meitu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577365",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "2746603",
+      "name": "地球",
+      "font_class": "diqiu",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "5387521",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "eaf1",
+      "unicode_decimal": 60145
+    }
+  ]
+}
