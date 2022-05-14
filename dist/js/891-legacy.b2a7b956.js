@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksupermall"]=self["webpackChunksupermall"]||[]).push([[891],{9891:function(e,n,u){u.r(n),u.d(n,{default:function(){return f}});var l=function(){var e=this,n=e.$createElement,u=e._self._c||n;return u("div",[e._v("分类")])},r=[],t={name:"Variety"},a=t,s=u(1001),c=(0,s.Z)(a,l,r,!1,null,"34ceb290",null),f=c.exports}}]);
+//# sourceMappingURL=891-legacy.b2a7b956.js.map

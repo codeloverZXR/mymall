@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunksupermall"]=self["webpackChunksupermall"]||[]).push([[415],{415:function(e,l,n){n.r(l),n.d(l,{default:function(){return f}});var u=function(){var e=this,l=e.$createElement,n=e._self._c||l;return n("div",[e._v("我的")])},r=[],t={name:"Profile"},a=t,s=n(1001),c=(0,s.Z)(a,u,r,!1,null,"3a247ee6",null),f=c.exports}}]);
+//# sourceMappingURL=415-legacy.aafb91b5.js.map
